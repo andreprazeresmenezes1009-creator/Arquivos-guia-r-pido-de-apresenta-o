@@ -8,6 +8,7 @@ Water Services and Technologies (WST). Este arquivo consolida o **Guia Rápido d
 - Se for **extremamente necessário** quebrar alguma regra para cumprir o pedido, **avise o usuário antes e pergunte qual opção seguir**. Nunca quebre em silêncio.
 - Em dúvida sobre novos formatos ou aplicações especiais, a decisão é da equipe de Marketing da WST.
 - Use apenas os arquivos de `assets/`. Não redesenhe, recrie nem "aproxime" logo, overlays, fundos ou grafismos.
+- Os botões "baixar" do guia de apresentação (PDF) apontam para zips no GitHub e podem aparecer sem link na leitura do PDF. **Ignore-os:** os quatro fundos e overlays já estão extraídos em `assets/apresentacao/` (PNG e SVG). Nunca peça os arquivos de novo se esta pasta existir.
 - Os valores técnicos estão em `brand.json`. Em caso de dúvida sobre cor, use o **HEX**.
 
 ## Marca
