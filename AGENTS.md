@@ -100,7 +100,7 @@ Referência: 1920 × 1080 px (16:9). No PowerPoint de 13,333 × 7,5 pol., 1 px =
 
 ### Pontos em aberto no guia (decida e avise o usuário)
 
-- Nos slides de conteúdo, o texto diz que o cabeçalho segue o padrão da capa de seção (título da apresentação), mas os exemplos mostram "Título da seção". Adote um critério e informe.
+- **Decidido pela equipe:** nos slides de conteúdo (com e sem imagem), o texto do cabeçalho é o **título da seção** (não o título da apresentação). Na capa de seção, o cabeçalho segue com o título da apresentação e o nome da empresa.
 - O guia não define o texto de contato da página final. Não invente dados: use placeholders e avise.
 
 ## Checklist antes de entregar
