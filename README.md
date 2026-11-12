@@ -8,6 +8,8 @@ Arquivos oficiais da Water Services and Technologies (WST) para montar apresenta
 2. Disponibilize os arquivos de `assets/` (ou os links brutos do GitHub).
 3. Peça o conteúdo da apresentação. Para .pptx, a fonte **Arial Nova** é referenciada pelo nome e precisa estar instalada no computador de quem abrir o arquivo.
 
+Se a IA acessa o GitHub, basta o link do repositório e a frase: "Leia o `AGENTS.md` antes de começar". O Claude Code lê o `CLAUDE.md` (que aponta para o `AGENTS.md`) sozinho ao abrir o repositório. Em outras ferramentas isso não é automático: coloque a frase acima nas instruções do projeto ou no primeiro pedido.
+
 Exemplo de pedido:
 
 > Leia AGENTS.md e brand.json deste repositório e use os arquivos de assets/. Monte uma apresentação sobre [tema], com base em [conteúdo ou link]. Cumpra todas as regras sem exceção. Se precisar quebrar alguma, avise e pergunte antes.
