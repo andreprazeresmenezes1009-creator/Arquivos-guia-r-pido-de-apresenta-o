@@ -1,0 +1,63 @@
+{
+  "_nota": "Valores extraídos de docs/guia-rapido-da-marca.pdf e docs/guia-de-apresentacao-com-ia.pdf. Em caso de divergência, vale o PDF. Em dúvida sobre cor, use o HEX.",
+  "empresa": "Water Services and Technologies",
+  "sigla": "WST",
+  "site": "waterservicestech.com",
+  "assinatura_institucional": "Inteligência aplicada à água e ao meio ambiente.",
+  "cores": {
+    "primarias": {
+      "azul":   { "hex": "065589", "rgb": [6, 85, 137],    "cmyk": [95, 64, 22, 6] },
+      "cinza":  { "hex": "939598", "rgb": [147, 149, 152], "cmyk": [44, 33, 32, 11] },
+      "branco": { "hex": "FFFFFF", "rgb": [255, 255, 255], "cmyk": [0, 0, 0, 0] }
+    },
+    "secundarias": {
+      "azul_marinho": { "hex": "002647", "rgb": [0, 38, 71],     "cmyk": [100, 50, 0, 75] },
+      "azul_medio":   { "hex": "3F85AA", "rgb": [63, 133, 170],  "cmyk": [75, 36, 20, 5] },
+      "azul_claro":   { "hex": "B1D6E3", "rgb": [177, 214, 227], "cmyk": [35, 5, 11, 0] },
+      "azul_gelo":    { "hex": "E9F6FD", "rgb": [233, 246, 253], "cmyk": [10, 0, 0, 0] }
+    },
+    "complementares": {
+      "laranja":    { "hex": "F07E26", "rgb": [240, 126, 38], "cmyk": [0, 60, 90, 0],  "pilar": "Tecnologia" },
+      "verde":      { "hex": "37AB49", "rgb": [55, 171, 73],  "cmyk": [75, 0, 90, 0],  "pilar": "Serviços" },
+      "azul_ciano": { "hex": "00DCFF", "rgb": [0, 220, 255],  "cmyk": [62, 0, 6, 0],   "pilar": "Serviços Digitais" },
+      "azul_aqua":  { "hex": "00A4BD", "rgb": [0, 164, 189],  "cmyk": [76, 12, 24, 0], "pilar": "Produtos" },
+      "amarelo":    { "hex": "FDC400", "rgb": [253, 196, 0],  "cmyk": [0, 25, 95, 0],  "pilar": "Cursos e Treinamentos" }
+    },
+    "_regras": "Complementares com moderação (acentos, detalhes, ícones). Liberadas todas ao mesmo tempo em infográficos, relatórios técnicos, tabelas, apresentações corporativas e gráficos. Erro conhecido no PDF: RGB de 065589 impresso como 6/85/37 e de 3F85AA como 63/133/70; os valores acima são os corretos."
+  },
+  "gradientes": {
+    "_regras": "Transição sempre suave e linear. Usar apenas estas combinações, em capas, banners, fundos de slides e cartões de conteúdo.",
+    "combinacoes": [
+      ["FFFFFF", "065589"],
+      ["00DCFF", "065589"],
+      ["002647", "065589"],
+      ["002647", "065589", "3F85AA", "B1D6E3", "E9F6FD"]
+    ]
+  },
+  "tipografia": {
+    "corporativa": { "familia": "Arial Nova", "titulos_e_destaques": "Bold", "corpo": "Light", "tamanho_documentos_pt": 11, "uso": "Apresentações, relatórios técnicos, propostas, documentos orientados por dados" },
+    "marketing":   { "familia": "Inter", "titulos_e_chamadas": ["Bold", "Semibold"], "subtitulos_e_destaques": "Medium", "corpo": "Regular", "evitar_em_textos_longos": ["Thin", "Light", "Black"] }
+  },
+  "apresentacao": {
+    "proporcao": "16:9",
+    "canvas_referencia_px": [1920, 1080],
+    "margem_px": 80,
+    "conversao": "No PowerPoint 13,333 x 7,5 pol.: 1 px = 1/144 pol.; 1 pt = 2 px",
+    "cabecalho_espacamento_entre_letras": "acima de 50",
+    "slide_sem_imagem_fundo": "FFFFFF",
+    "arquivos": {
+      "capa": "assets/apresentacao/fundo-capa.png",
+      "capa_de_secao": "assets/apresentacao/fundo-capa-de-secao.png",
+      "conteudo_com_imagem": "assets/apresentacao/overlay-slide-de-conteudo.png",
+      "pagina_final": "assets/apresentacao/overlay-slide-final.png"
+    }
+  },
+  "logo": {
+    "versoes": { "institucional": "uso preferencial", "branca": "somente fundos escuros ou fotos que dificultem a leitura", "escala_de_cinza": "somente limitação técnica de impressão" },
+    "area_de_seguranca": "no mínimo a altura total do logo, em todos os lados",
+    "altura_minima_digital_px": 12,
+    "altura_minima_impressa_mm": 5
+  },
+  "icones": { "biblioteca": "Google Fonts Material Symbols", "estilo": "line art, sem preenchimento, cantos levemente arredondados, espessura equilibrada", "cor": "única ou da paleta" },
+  "fotografia": ["pessoas em atividade", "luz natural ou ambiente limpa", "nitidez", "fundo organizado", "EPIs corretos em campo"]
+}

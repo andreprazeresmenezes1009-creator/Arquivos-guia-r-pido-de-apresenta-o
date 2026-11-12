@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gradiente_sem_nome_22);
+      }
+
+      .cls-2 {
+        fill: url(#Gradiente_sem_nome_163);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_163" data-name="Gradiente sem nome 163" x1="473.92" y1="977.48" x2="1855.68" y2="-485.06" gradientUnits="userSpaceOnUse">
+      <stop offset=".11" stop-color="#065589"/>
+      <stop offset=".26" stop-color="#065589" stop-opacity=".97"/>
+      <stop offset=".41" stop-color="#065589" stop-opacity=".88"/>
+      <stop offset=".57" stop-color="#065589" stop-opacity=".72"/>
+      <stop offset=".73" stop-color="#065589" stop-opacity=".51"/>
+      <stop offset=".89" stop-color="#065589" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#065589" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradiente_sem_nome_22" data-name="Gradiente sem nome 22" x1="61.38" y1="984.14" x2="2486.79" y2="-486.91" gradientUnits="userSpaceOnUse">
+      <stop offset=".26" stop-color="#065589"/>
+      <stop offset=".38" stop-color="#065589" stop-opacity=".97"/>
+      <stop offset=".51" stop-color="#065589" stop-opacity=".88"/>
+      <stop offset=".64" stop-color="#065589" stop-opacity=".72"/>
+      <stop offset=".77" stop-color="#065589" stop-opacity=".51"/>
+      <stop offset=".9" stop-color="#065589" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#065589" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-2" d="M1559.93,1107.95s426.93-80.77,447.13-259.62c20.19-178.85-28.85-902.9-28.85-902.9L-17.99-34.39v1142.34h1577.92Z"/>
+  <path class="cls-1" d="M1222.85,1139.94s732.71,5.77,735.59-506.26V-51.43L-32.76-2.39v1117.03l1255.62,25.3Z"/>
+</svg>
